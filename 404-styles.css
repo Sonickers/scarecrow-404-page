@@ -48,6 +48,7 @@
 }
 
 .button-homepage{
+    margin-top: 20px;
     width: 216px;
     height: 68px;
     left: 740px;
@@ -71,4 +72,28 @@
     font-size: 14px;
     line-height: 17px;
     color: #333333;
+}
+
+@media screen and (max-width: 768px) {
+    .container-text-404 {
+        padding: 10px 20px;
+    }
+    .information-text {
+        font-size: 48px;
+        line-height: 71px;
+        letter-spacing: -0.035em;
+    }
+    .more-information-text {
+        font-size: 18px;
+        line-height: 27px;
+        letter-spacing: -0.035em;
+        width: 100%;
+
+    }
+    .main-container {
+        grid-template-columns: 1fr;
+        padding: 0 20px;
+        margin-top: 60px;
+        gap: 0px;
+    }
 }
