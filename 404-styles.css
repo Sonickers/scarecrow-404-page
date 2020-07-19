@@ -27,6 +27,7 @@
 }
 
 .information-text {
+    margin-top: 0;
     font-family: Space Mono;
     font-style: normal;
     font-weight: bold;
@@ -79,6 +80,7 @@
         padding: 10px 20px;
     }
     .information-text {
+        margin-top: 15px;
         font-size: 48px;
         line-height: 71px;
         letter-spacing: -0.035em;
@@ -87,7 +89,7 @@
         font-size: 18px;
         line-height: 27px;
         letter-spacing: -0.035em;
-        width: 100%;
+        width: auto;
 
     }
     .main-container {
@@ -95,5 +97,14 @@
         padding: 0 20px;
         margin-top: 60px;
         gap: 0px;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1200px) {
+    .main-container {
+        padding: 0 30px;
+    }
+    .more-information-text {
+        width: 70%;
     }
 }
